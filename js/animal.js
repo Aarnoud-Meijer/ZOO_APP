@@ -3,7 +3,7 @@ $(function(){
 	class animal {
 		// define properties
 
-		constructor(array properties) {
+		constructor(properties) {
 			
 			//this.height = height;
 			//this.width = width;
@@ -35,7 +35,8 @@ $(function(){
 
 	}
 
-
+// child of / family
+// dob / day of birth
 
 	class dog extends animal {
 		speak() {

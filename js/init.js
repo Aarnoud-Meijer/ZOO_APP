@@ -12,7 +12,7 @@ head.js("js/jquery.min.js")
 .js("js/zoo.js")
 ;
 
-// init
+// init - within callback
 head.ready(function() {
 	//
 	var credentials = {
@@ -26,6 +26,11 @@ head.ready(function() {
 		};
 
 	zoo = new zoo(credentials);
+	//zoo2 = new building(credentials);
+	head.js("js/animal.js");
+	animal = new animal();
 });
+
+
 
 
