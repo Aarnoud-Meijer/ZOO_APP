@@ -11,6 +11,8 @@ head.js("js/jquery.min.js")
 .js("js/building.js")
 .js("js/zoo.js")
 .js("js/animal.js")
+.js("js/dog.js")
+.js("js/config.js")
 ;
 
 // init - within callback

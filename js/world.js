@@ -1,0 +1,5 @@
+class world{
+	// gravity
+	// size
+	
+}
