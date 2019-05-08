@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<title>Zoo</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/zoo.js"></script>
+	<script type="text/javascript" src="js/head.min.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
 </head>
 <body>
 	<header></header>
