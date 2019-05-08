@@ -5,4 +5,6 @@ class dog extends animal {
 	speak() {
 		console.log(this.name + ' barks.');
 	}
+	getAge(){
+	}
 }

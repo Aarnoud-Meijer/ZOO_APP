@@ -40,10 +40,14 @@ var dogsetting = {
 	energy:50, // julles
 };
 
-	dog = new dog(dogsetting);
-	var dogs = new dog({age:21,name:"bla"});
+	// warning!
+	// dog = new dog(dogsetting); <- wil override the dog class
+	var dog1 = new dog(dogsetting);
+	var dog2 = new dog(dogsetting);
+//	dogs = new dog({age:21,name:"bla"});
 
-	console.log(dog.name);
+	dog1.getAge();
+	console.log(dog1.name);
 //	console.log(dog.key);
 
 //dog.age=1;
