@@ -32,9 +32,22 @@ head.ready(function() {
 	//zoo2 = new building(credentials);
 
 //	animal = new animal();
-	dog = new dog();
-dog.age=1;
-delete dog.age;
+var dogsetting = {
+	age:15,
+	name:"Arjan",
+	weigth:50, //Kg
+	height:75, //cm
+	energy:50, // julles
+};
+
+	dog = new dog(dogsetting);
+	var dogs = new dog({age:21,name:"bla"});
+
+	console.log(dog.name);
+//	console.log(dog.key);
+
+//dog.age=1;
+//delete dog.age;
 });
 
 
