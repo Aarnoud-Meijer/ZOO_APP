@@ -10,6 +10,7 @@
 head.js("js/jquery.min.js")
 .js("js/building.js")
 .js("js/zoo.js")
+.js("js/animal.js")
 ;
 
 // init - within callback
@@ -27,8 +28,11 @@ head.ready(function() {
 
 	zoo = new zoo(credentials);
 	//zoo2 = new building(credentials);
-	head.js("js/animal.js");
-	animal = new animal();
+
+//	animal = new animal();
+	dog = new dog();
+dog.age=1;
+delete dog.age;
 });
 
 

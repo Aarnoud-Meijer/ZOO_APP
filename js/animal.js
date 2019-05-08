@@ -1,47 +1,49 @@
-$(function(){
 
-	class animal {
-		// define properties
 
-		constructor(properties) {
-			
-			//this.height = height;
-			//this.width = width;
-		}
+class animal {
+	// define properties
 
-		make_noise(){
-			// print sound
-		}
-
-		calc_energy(){
+	constructor(properties) {
 		
-		}
-
-		consume(){
-			// drink / eat
-		}
-
-		setname(name){
-			
-		}
-		
-		getname(){
-			
-		}
-
-		age(){
-			
-		}
-
+		//this.height = height;
+		//this.width = width;
 	}
 
-// child of / family
-// dob / day of birth
-
-	class dog extends animal {
-		speak() {
-			console.log(this.name + ' barks.');
-		}
+	make_noise(){
+		// print sound
 	}
 
-});
+	calc_energy(){
+	
+	}
+
+	consume(){
+		// drink / eat
+	}
+
+	setname(name){
+		
+	}
+	
+	getname(){
+		
+	}
+
+	age(){
+		// return currenttime - this.dob 
+	}
+	
+	state(){
+		
+	}
+
+	action(){
+		// set random action / state
+	}
+
+}
+
+
+
+
+

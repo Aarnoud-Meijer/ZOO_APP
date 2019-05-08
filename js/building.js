@@ -1,6 +1,7 @@
 class building{
 	constructor( credentials) {
-		console.log(credentials);
+		this.credentials = credentials;
+		console.log(this.credentials);
 	}
 
 	credentials(){
