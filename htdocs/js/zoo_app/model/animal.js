@@ -50,11 +50,16 @@ class animal {
 	}
 
 	getAllMethods(){
+		return this.getOwnPropertyNames( this.prototype );
+		// [ 'constructor', 'getAnimalType' ]
+
 		return Object.getOwnPropertyNames(obj)
 			.filter(function(prop) {
 				return typeof obj[prop] == 'function';
 			});
 	}
+
+
 
 	
 	state(){

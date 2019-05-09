@@ -14,8 +14,9 @@ class building{
 	}
 
 	getAllMethods(){
+		return Object.getOwnPropertyNames( this.prototype );
 		obj =this;
-		console.log(obj);
+	//	console.log(obj);
 		return Object.getOwnPropertyNames(this)
 			.filter(function(prop) {
 				return typeof obj[prop] == 'function';
