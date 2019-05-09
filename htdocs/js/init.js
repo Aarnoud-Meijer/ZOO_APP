@@ -3,17 +3,18 @@
 
 // config
 
+var model = "js/zoo_app/model/";
 
 // autoload
-
-
-head.js("js/jquery.min.js")
-.js("js/building.js")
-.js("js/zoo.js")
-.js("js/animal.js")
-.js("js/dog.js")
-.js("js/config.js")
+head.js("js/lib/jquery.min.js")
+.js(model+"building.js")
+.js(model+"zoo.js")
+.js(model+"animal.js")
+.js(model+"dog.js")
+.js("js/zoo_app/config.js")
 ;
+
+// use php to scan whole directory
 
 // init - within callback
 head.ready(function() {
