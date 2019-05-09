@@ -49,10 +49,16 @@ class animal {
 		
 	}
 
+	getAllMethods(){
+		return Object.getOwnPropertyNames(obj)
+			.filter(function(prop) {
+				return typeof obj[prop] == 'function';
+			});
+	}
 
 	
 	state(){
-		
+		console.log(Object.getOwnPropertyNames(this));
 	}
 
 	action(){

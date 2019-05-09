@@ -19,6 +19,10 @@ head.ready(function() {
 	zooName.getAnimals(55);
 	console.log(zooName);
 
+	zooName.animals[5].state();
+//	console.log(Object.getOwnPropertyNames(zooName));
+	console.log(zooName.getAllMethods());
+
 //	animal = new animal();
 var dogsetting = {
 	age:15,
