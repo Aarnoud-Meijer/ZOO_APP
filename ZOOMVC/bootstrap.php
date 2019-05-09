@@ -8,6 +8,8 @@ define('DS', DIRECTORY_SEPARATOR);
 // if not devined WEBROOT_PATH
 if(!defined('WEBROOT_PATH')) die();
 
+error_reporting(E_ALL);
+
 // config
 include('config.php');
 

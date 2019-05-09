@@ -8,6 +8,14 @@ var config = [
 	
 ];
 
+var defaultConfig = {
+		age:15,
+		weight:15,
+		life:100, // percenrage
+};
+
+graveyard = [];
+
 /*
 var cat = {
 	speed:10, // Km/h
@@ -16,5 +24,17 @@ var cat = {
 }
 */
 
-// training give more speed and energy (buffer(min/max))
+// training/spor give more speed and energy (buffer(min/max))
+
+
+
+
+// 53.219635, 6.567150
+/*
+location: Code Gorilla
+Latitude: 53.2192508
+Longitude: 6.5669752
+ 
+meters
+*/
 

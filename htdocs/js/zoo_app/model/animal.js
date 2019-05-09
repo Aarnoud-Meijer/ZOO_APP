@@ -2,6 +2,7 @@
 
 class animal {
 	// define properties
+	//var this.test = 0;
 
 	constructor(properties) {
 		// set all properties
