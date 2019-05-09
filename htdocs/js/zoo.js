@@ -10,8 +10,9 @@ class zoo extends building{
 //	}
 
 	credentials(){
-		
+		// credit
 	}
 }
 
 
+// age range
