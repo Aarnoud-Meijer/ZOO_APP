@@ -1,6 +1,9 @@
 <?php
 
 // namespace
+// if XMLreader excist
+
+
 
 
 $z = new XMLReader;
