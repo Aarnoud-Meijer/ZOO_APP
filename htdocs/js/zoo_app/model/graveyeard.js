@@ -1,0 +1,5 @@
+
+class zoo extends building{
+	
+	
+}

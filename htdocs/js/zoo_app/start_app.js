@@ -12,8 +12,12 @@ head.ready(function() {
 		// entre_cost
 		};
 
-	zoo = new zoo(credentials);
+	zooName = new zoo(credentials);
 	//zoo2 = new building(credentials);
+
+
+	zooName.getAnimals(55);
+	console.log(zooName);
 
 //	animal = new animal();
 var dogsetting = {
