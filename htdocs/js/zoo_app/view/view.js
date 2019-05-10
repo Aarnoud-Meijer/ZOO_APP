@@ -3,7 +3,10 @@ class view{
 	constructor(){
 		// don't hardcode canvas!!! just for testings
 		this.canvas = document.getElementById('ZOOAPP');
-		this.drawtest();
+		this.x = 30;
+		this.y = 30;
+		setInterval(this.drawtest.bind(this), 1000);
+		//this.drawtest();
 	}
 
 	renderpage(){
@@ -21,7 +24,15 @@ class view{
 		var monkey = document.getElementById("monkey");
 		monkey.width = monkey.width/4;
 		monkey.height = monkey.height/4;
-		view.drawImage(monkey,10,10, 32 , 32);
+
+		this.x = this.x + Math.round(Math.random()) * 2 - 1;
+		this.y = this.y + Math.round(Math.random()) * 2 - 1;
+
+		// view.clearRect(0, 0, view.width, view.height);
+		view.clearRect(0, 0, 600, 300);
+		view.drawImage(monkey,this.x, this.y, 32 , 32);
+		
+		// foreach this.monkey.array
 	}
 
 	prepareCanvas(){
