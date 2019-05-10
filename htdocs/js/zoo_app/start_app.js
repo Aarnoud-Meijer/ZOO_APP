@@ -15,13 +15,15 @@ head.ready(function() {
 	zooName = new zoo(credentials);
 	//zoo2 = new building(credentials);
 
+	gorillazoo = new view;
 
 	zooName.getAnimals(55);
 	console.log(zooName);
 
 	zooName.animals[5].state();
 //	console.log(Object.getOwnPropertyNames(zooName));
-	console.log(zooName.getAllMethods());
+//	console.log(zooName.getAllMethods());
+	zooName.mymethods();
 
 //	animal = new animal();
 var dogsetting = {
