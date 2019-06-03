@@ -3,7 +3,9 @@
 // use autoloader
 // head.js("js/building.js");
 
-class zoo extends building{
+
+//class zoo extends building implements actions {
+class zoo extends building {
 	constructor(properties){
 		console.log(properties);
 		super(properties);

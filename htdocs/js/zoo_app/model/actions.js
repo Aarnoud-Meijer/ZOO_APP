@@ -1,9 +1,9 @@
 
 class actions{
 
-	constructor(){
+//	constructor(){
 		
-	}
+//	}
 
 	feed(){
 		
